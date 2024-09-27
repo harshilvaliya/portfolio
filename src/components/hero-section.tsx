@@ -128,7 +128,7 @@ import "remixicon/fonts/remixicon.css";
 export default function Hero() {
   return (
     <>
-      <div id="wrapper" className="w-100vw h-100vh bg-[#E6E6E1] text-[#1C1C1A]">
+      <div id="hero-wrapper" className="bg-[#E6E6E1] text-[#1C1C1A]">
         <div
           id="nav"
           className="w-full h-[28vh] flex justify-between

@@ -127,7 +127,7 @@ import "remixicon/fonts/remixicon.css";
 
 export default function Hero() {
   return (
-    <>
+    <main>
       <div id="hero-wrapper" className="bg-[#E6E6E1] text-[#1C1C1A]">
         <div
           id="nav"
@@ -266,6 +266,6 @@ export default function Hero() {
           </div>
         </div>
       </div>
-    </>
+    </main>
   );
 }

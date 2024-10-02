@@ -77,7 +77,10 @@ const skillCategories: SkillCategoryProps[] = [
 
 export default function Skills() {
   return (
-    <section className="w-screen h-screen bg-[#E6E6E1] text-[#E6E6E1] flex items-center justify-center p-4">
+    <section
+      id="skills"
+      className="w-screen h-screen bg-[#E6E6E1] text-[#E6E6E1] flex items-center justify-center p-4"
+    >
       <div
         id="skills-box"
         className="w-full max-w-[96%] h-full max-h-[96%] bg-[#1C1C1A] rounded-[35px] p-8 overflow-auto flex flex-col items-center justify-center"
